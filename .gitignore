@@ -61,8 +61,5 @@ Thumbs.db
 # Things in the core directory that Drupal 8 commits in the repository.
 !core/**/*.gz
 
-#ignore the settings.php file in this project because we never want to overwrite it in a subsite.
-sites/default/settings.php
-
 #ignore Dreamweaver added files.
 dwsync.xml
