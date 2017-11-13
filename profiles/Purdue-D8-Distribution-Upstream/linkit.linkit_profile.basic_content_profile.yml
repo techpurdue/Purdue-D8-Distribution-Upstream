@@ -1,9 +1,0 @@
-uuid: cc9e857a-2f15-490a-9ae7-2304d0c2a491
-langcode: en
-status: true
-dependencies: {  }
-id: basic_content_profile
-label: 'Basic Content Profile'
-description: 'Links to most basic content types'
-attributes: {  }
-matchers: {  }
