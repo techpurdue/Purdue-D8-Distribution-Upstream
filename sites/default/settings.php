@@ -25,7 +25,7 @@ if (file_exists($local_settings)) {
 }
 
 /*
- * Set the default installation profile when installing Drupal the first time
+ * Set the default installation profile when installing Drupal the first time. More options to be added later.
  */
 $settings['install_profile'] = 'standard';
 
