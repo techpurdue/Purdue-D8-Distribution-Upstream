@@ -51,7 +51,7 @@ dependencies:
   - editor
   - ckeditor
 # Contrib modules added to /modules/contrib
-	- admin_toolbar
+  - admin_toolbar
 
 # List any themes that should be installed as part of the installation
 # profile installation.
