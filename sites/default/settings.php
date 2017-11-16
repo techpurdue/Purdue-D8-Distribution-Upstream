@@ -27,7 +27,7 @@ if (file_exists($local_settings)) {
 /*
  * Set the default installation profile when installing Drupal the first time. More options to be added later.
  */
-$settings['install_profile'] = 'standard';
+$settings['install_profile'] = 'Purdue Starter Kit';
 
 /*
  * Add trusted hosts to avoid error messages in the Status report here: Home > Administration > Reports
