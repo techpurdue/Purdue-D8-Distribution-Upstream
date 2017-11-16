@@ -32,7 +32,7 @@ $settings['install_profile'] = 'Purdue Starter Kit';
 /*
  * Add trusted hosts to avoid error messages in the Status report here: Home > Administration > Reports
  */
-
+/*
 if (defined('PANTHEON_ENVIRONMENT')) {
   if (in_array($_ENV['PANTHEON_ENVIRONMENT'], array('dev', 'test', 'live'))) {
     $settings['trusted_host_patterns'][] = "{$_ENV['PANTHEON_ENVIRONMENT']}-{$_ENV['PANTHEON_SITE_NAME']}.getpantheon.io";
@@ -45,3 +45,4 @@ if (defined('PANTHEON_ENVIRONMENT')) {
     $settings['trusted_host_patterns'][] = '^yoursite.com$';
   }
 }
+*/
