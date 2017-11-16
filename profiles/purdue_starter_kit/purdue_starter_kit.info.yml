@@ -52,7 +52,7 @@ dependencies:
   - ckeditor
 # Contrib modules added to /modules/contrib
   - admin_toolbar
-	- admin_toolbar_tools
+  - admin_toolbar_tools
 
 # List any themes that should be installed as part of the installation
 # profile installation.
