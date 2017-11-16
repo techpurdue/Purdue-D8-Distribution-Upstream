@@ -18,3 +18,15 @@ function purdue_starter_kit_install() {
   
   // Can add code in here to make nodes, terms, etc.
 }
+
+/**
+ * Implements hook_update_N().
+ *
+ * Perform actions to update the profile to match current modules, etc.
+ *
+ * @see hook_update_N()
+ */
+function purdue_starter_kit_update_8001() {
+	ModuleHandler::addModule ("admin_toolbar", "/modules/admin_tolbar");
+	ModuleHandler::addModule ("admin_toolbar_tools", "/modules/admin_tolbar/admin_toolbar_tools");
+}
