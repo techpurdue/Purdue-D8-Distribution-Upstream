@@ -28,13 +28,7 @@ function purdue_starter_kit_install() {
  */
 
 //added "/code" to path of modules
-function purdue_starter_kit_update_8002() {
-  ModuleHandler::addModule ("admin_toolbar", "/code/modules/admin_tolbar");
-  ModuleHandler::addModule ("admin_toolbar_tools", "/code/modules/admin_tolbar/admin_toolbar_tools");
-}
-
-//enabling modules on update.
-function purdue_starter_kit_update_8001() {
-  ModuleHandler::addModule ("admin_toolbar", "/modules/admin_tolbar");
-  ModuleHandler::addModule ("admin_toolbar_tools", "/modules/admin_tolbar/admin_toolbar_tools");
+function purdue_starter_kit_update_8003() {
+  addModule ("admin_toolbar", "/modules/admin_tolbar");
+  addModule ("admin_toolbar_tools", "/modules/admin_tolbar/admin_toolbar_tools");
 }
