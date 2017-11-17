@@ -13,8 +13,8 @@
  */
 function purdue_starter_kit_install() {
   // First, do everything in standard profile.
-  include_once DRUPAL_ROOT . '/core/profiles/standard/standard.install';
-  standard_install();
+  //include_once DRUPAL_ROOT . '/core/profiles/standard/standard.install';
+  //standard_install();
   
   // Can add code in here to make nodes, terms, etc.
 }
